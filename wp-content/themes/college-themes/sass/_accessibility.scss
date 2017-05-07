@@ -1,0 +1,123 @@
+
+.as-container{
+  width: 100%;
+  max-width: 250px;
+  display: none;
+  position: fixed;
+  right: 0;
+  top: 20px;
+  border: 1px solid #fff;
+  background: #f8f8f8;
+  z-index: 999999;
+  padding: 0.5rem 0.5rem 2.3rem 0.5rem;
+  opacity: 0.98;
+  overflow-y: auto;
+  border-radius: 15px 0 0 15px;
+
+}
+
+.as-container button{
+  border: 0;
+  outline: none;
+  color: #fff;
+  background: #5b9bc4;
+  font-size: 1rem;
+  padding: 3px 25px;
+  border-radius: 25px;
+  border: 1px solid #bbbfc1;
+  width: 87px;
+}
+
+.as-container button:hover{
+  background: #4a8ab3;
+  box-shadow: 0 5px 5px rgba(25,150,238, 0.17);
+  color: #fff;
+}
+
+.as-container .as-close{
+  font-size: 20px;
+  float: right;
+  font-weight: bold;
+  width: 100%;
+  text-align: right;
+  color: #bbbfc1;
+}
+
+.as-container .as-close:hover{
+  cursor: pointer;
+  color: #525252;
+}
+
+.as-container .field-name{
+  color: #525252;
+  font-weight: bold;
+  font-size: 1rem;
+  display: block;
+  clear: both;
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+  margin-right: 1rem;
+  direction: rtl;
+}
+
+.as-container .active-option{
+  background: #525252;
+  color: #fff;
+}
+
+.as-container #font-size,
+.as-container #grayscale,
+.as-container #sepia,
+.as-container #contrast,
+.as-container #invert,
+.as-container #cursor,
+.as-container #links{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 2.8rem;
+}
+
+.as-container #font-size button{
+  padding: 3px 20px;
+}
+
+
+.grayscale
+{
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+.sepia
+{
+  -webkit-filter: sepia(1);
+  filter: sepia(1);
+}
+
+.contrast
+{
+  -webkit-filter: contrast(1.5);
+  filter: contrast(1.5);
+}
+
+.invert
+{
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+.cursor
+{
+  cursor: url(../images/cursor.cur), auto;
+}
+
+.hightlight-links
+{
+  background-color: orange;
+}

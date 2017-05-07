@@ -1,0 +1,167 @@
+// IMPORT COMPASS COMPONENT  === //
+@import "compass/css3/transition";
+@import "compass/css3/animation";
+@import "compass/css3/transform";
+@import "compass/css3/images";
+@import "compass/css3/inline-block";
+@import "compass/css3/border-radius";
+@import "compass/typography/vertical_rhythm";
+@import "compass/css3/box-sizing";
+@import "compass/css3/box-shadow";
+@import "compass/css3/flexbox";
+// IMPORT THEMES CONPONENT ====== //
+
+@import "vars";
+
+// Transform scale Mixin
+@mixin transformSkewScale($x, $y) {
+  -webkit-transform: scale($x, $y);
+  -moz-transform: scale($x, $y);
+  -o-transform: scale($x, $y);
+  -ms-transform: scale($x, $y);
+}
+/*=========================================================
+                  MODAL_WINDOWS
+===========================================================*/
+/* Modal Window */
+
+@include keyframes(bounce){
+  0% {
+    -webkit-transform: scale3d(0.1, 0.1, 1);
+    -webkit-box-shadow: 0 3px 20px rgba(255, 255, 255, 0.9);
+  }
+  55% {
+    -webkit-transform: scale3d(1.08, 1.08, 1);
+    -webkit-box-shadow: 0 10px 20px rgba(255, 255, 255, 0.9);
+  }
+  75% {
+    -webkit-transform: scale3d(0.95, 0.95, 1);
+    -webkit-box-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    -webkit-box-shadow: 0 3px 20px rgba(255, 255, 255, 0.9);
+  }
+}
+
+@include keyframes(minimise){
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(0.1, 0.1, 1);
+  }
+}
+
+/* Modal window */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 100000;
+  @include transition(opacity, 500ms, ease-in);
+  opacity: 0;
+  pointer-events: none;
+  padding: 12px;
+  p {
+    margin: 4px auto;
+    direction: rtl;
+  }
+  input {
+    direction: rtl;
+    @include box-sizing(border-box);
+    display: block;
+    @include border-radius(4px);
+    background: $white;
+    width: 100%;
+    padding: 8px 14px;
+    font-family: $Roboto-Light;
+    &[type=submit]{
+      box-shadow: none;
+      text-shadow: none;
+      border: none;
+      color: $white;
+      background: $base_blue;
+      @include border-radius(22px);
+      padding: 10px 22px;
+      font-size: 18px;
+      font-family: $Roboto-Medium;
+      text-transform: uppercase;
+      margin-top: 4px;
+      display: inline-block;
+      width: auto;
+      margin: 4px auto;
+    }
+  }
+  textarea {
+    height: 120px;
+    resize: none;
+    @include box-sizing(border-box);
+    display: block;
+    @include border-radius(4px);
+    background: $white;
+    width: 100%;
+    padding: 8px 14px;
+    font-family: $Roboto-Light;
+    direction: rtl;
+  }
+}
+
+.modal:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal > div {
+  max-width: 500px;
+  position: relative;
+  margin: 120px auto;
+  padding: 16px;
+  text-align: center;
+  background: $white;
+  min-height: 300px;
+  @include animation(minimise 500ms linear);
+  @include border-radius(5px);
+}
+
+.modal:target > div {
+  @include animation(bounce);
+}
+
+.modal a[class="close"] {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.modal a[class="close"]:focus {
+  outline: none;
+}
+
+.modal a[class="close"]:after {
+  content: 'X';
+  font-size: 24px;
+  font-weight: 400;
+  display: block;
+  position: absolute;
+  right: 4px;
+  top: -4px;
+  padding: 1px;
+  text-decoration: none;
+  text-align: center;
+  color: $base_blue;
+  @include transition(all, 0.4s, ease-in-out);
+}
+
+.modal a[class="close"]:focus:after,
+.modal a[class="close"]:hover:after {
+  @include transformSkewScale(1.1, 1.1);
+}
+
+
+
+
+

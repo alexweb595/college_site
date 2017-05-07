@@ -1,0 +1,378 @@
+/*========================================================= MODAL_WINDOWS
+===========================================================*/
+/* Modal Window */
+@-moz-keyframes bounce { 0% { -webkit-transform: scale3d(0.1, 0.1, 1); -webkit-box-shadow: 0 3px 20px rgba(255, 255, 255, 0.9); }
+  55% { -webkit-transform: scale3d(1.08, 1.08, 1); -webkit-box-shadow: 0 10px 20px rgba(255, 255, 255, 0.9); }
+  75% { -webkit-transform: scale3d(0.95, 0.95, 1); -webkit-box-shadow: 0 0 20px rgba(255, 255, 255, 0.9); }
+  100% { -webkit-transform: scale3d(1, 1, 1); -webkit-box-shadow: 0 3px 20px rgba(255, 255, 255, 0.9); } }
+@-webkit-keyframes bounce { 0% { -webkit-transform: scale3d(0.1, 0.1, 1); -webkit-box-shadow: 0 3px 20px rgba(255, 255, 255, 0.9); }
+  55% { -webkit-transform: scale3d(1.08, 1.08, 1); -webkit-box-shadow: 0 10px 20px rgba(255, 255, 255, 0.9); }
+  75% { -webkit-transform: scale3d(0.95, 0.95, 1); -webkit-box-shadow: 0 0 20px rgba(255, 255, 255, 0.9); }
+  100% { -webkit-transform: scale3d(1, 1, 1); -webkit-box-shadow: 0 3px 20px rgba(255, 255, 255, 0.9); } }
+@keyframes bounce { 0% { -webkit-transform: scale3d(0.1, 0.1, 1); -webkit-box-shadow: 0 3px 20px rgba(255, 255, 255, 0.9); }
+  55% { -webkit-transform: scale3d(1.08, 1.08, 1); -webkit-box-shadow: 0 10px 20px rgba(255, 255, 255, 0.9); }
+  75% { -webkit-transform: scale3d(0.95, 0.95, 1); -webkit-box-shadow: 0 0 20px rgba(255, 255, 255, 0.9); }
+  100% { -webkit-transform: scale3d(1, 1, 1); -webkit-box-shadow: 0 3px 20px rgba(255, 255, 255, 0.9); } }
+@-moz-keyframes minimise { 0% { -webkit-transform: scale3d(1, 1, 1); }
+  100% { -webkit-transform: scale3d(0.1, 0.1, 1); } }
+@-webkit-keyframes minimise { 0% { -webkit-transform: scale3d(1, 1, 1); }
+  100% { -webkit-transform: scale3d(0.1, 0.1, 1); } }
+@keyframes minimise { 0% { -webkit-transform: scale3d(1, 1, 1); }
+  100% { -webkit-transform: scale3d(0.1, 0.1, 1); } }
+/* Modal window */
+.modal { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.3); z-index: 100000; -moz-transition: opacity, 500ms, ease-in; -o-transition: opacity, 500ms, ease-in; -webkit-transition: opacity, 500ms, ease-in; transition: opacity, 500ms, ease-in; opacity: 0; pointer-events: none; padding: 12px; }
+.modal p { margin: 4px auto; direction: rtl; }
+.modal input { direction: rtl; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; display: block; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; background: #fff; width: 100%; padding: 8px 14px; font-family: "Roboto-Light"; }
+.modal input[type=submit] { box-shadow: none; text-shadow: none; border: none; color: #fff; background: #5b9bc4; -moz-border-radius: 22px; -webkit-border-radius: 22px; border-radius: 22px; padding: 10px 22px; font-size: 18px; font-family: "Roboto-Medium"; text-transform: uppercase; margin-top: 4px; display: inline-block; width: auto; margin: 4px auto; }
+.modal textarea { height: 120px; resize: none; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; display: block; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; background: #fff; width: 100%; padding: 8px 14px; font-family: "Roboto-Light"; direction: rtl; }
+
+.modal:target { opacity: 1; pointer-events: auto; }
+
+.modal > div { max-width: 500px; position: relative; margin: 120px auto; padding: 16px; text-align: center; background: #fff; min-height: 300px; -moz-animation: minimise 500ms linear; -webkit-animation: minimise 500ms linear; animation: minimise 500ms linear; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+
+.modal:target > div { -moz-animation: bounce; -webkit-animation: bounce; animation: bounce; }
+
+.modal a[class="close"] { position: absolute; right: 0; top: 0; }
+
+.modal a[class="close"]:focus { outline: none; }
+
+.modal a[class="close"]:after { content: 'X'; font-size: 24px; font-weight: 400; display: block; position: absolute; right: 4px; top: -4px; padding: 1px; text-decoration: none; text-align: center; color: #5b9bc4; -moz-transition: all, 0.4s, ease-in-out; -o-transition: all, 0.4s, ease-in-out; -webkit-transition: all, 0.4s, ease-in-out; transition: all, 0.4s, ease-in-out; }
+
+.modal a[class="close"]:focus:after, .modal a[class="close"]:hover:after { -webkit-transform: scale(1.1, 1.1); -moz-transform: scale(1.1, 1.1); -o-transform: scale(1.1, 1.1); -ms-transform: scale(1.1, 1.1); }
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) { /* Bootstrap Grid */
+  .container { max-width: 992px; }
+  /* Section title */
+  .section_title { font-size: 19px; padding: 7px 7px 7px 22px; min-width: 250px; }
+  .section_title:before { left: -19px; border-top: 43px solid #5b9bc4; border-left: 22px solid transparent; border-bottom-right-radius: 15px; }
+  .section_title.right:before { right: -21px; border-top: 43px solid #5b9bc4; border-right: 22px solid transparent; }
+  /* Home page */
+  /* Home page slider block */
+  .slider_top_block #top_carousel .top_slider_item > div { height: 430px; }
+  .slider_top_block #top_carousel .top_slider_item .text_block_item .content_text_block h2 { font-size: 52px; }
+  .slider_top_block #top_carousel .top_slider_item .text_block_item .content_text_block h3 { font-size: 38px; }
+  .slider_top_block #top_carousel .top_slider_item .text_block_item .content_text_block h4 { font-size: 28px; }
+  .slider_top_block #top_carousel .top_slider_item .text_block_item .content_text_block p { font-size: 14px; }
+  /* Advantage */
+  .advantages-block .row .wrap_advantages-block { margin-top: 16px; min-height: 420px; }
+  .advantages-block .row .wrap_advantages-block .advantages-icon { height: 80px; }
+  .advantages-block .row .wrap_advantages-block .advantages-icon img { width: auto; max-height: 80px; }
+  .advantages-block .row .wrap_advantages-block h2 { font-size: 20px; }
+  .advantages-block .row .wrap_advantages-block p { font-size: 15px; }
+  /* Search form block */
+  .search_block { padding-bottom: 32px; }
+  .search_block .form_search { padding: 22px; min-height: 200px; }
+  .search_block .form_search #reset_search, .search_block .form_search #sort_start { padding: 8px 22px; font-size: 15px; }
+  .search_block .form_search .wrap_column_search_block .column-search_block p { margin: 0 0 22px; }
+  .search_block .form_search .wrap_column_search_block .column-search_block .select2-container--default .select2-selection--single { padding: 6px 10px; }
+  .search_block .form_search .wrap_column_search_block .column-search_block .select2-container--default .select2-selection--single .select2-selection__arrow { height: 41px; }
+  .search_block .form_search .wrp_search { margin: 0 0 22px; }
+  .search_block .form_search .select2-container--default .select2-selection--single { padding: 6px 10px; }
+  /* Carousel block */
+  .carousel_block { padding: 24px 0; }
+  .carousel_block .carousel_item { height: 210px; }
+  /* News and articles */
+  .articles-block { padding: 20px 0 46px; }
+  .articles-block .news-articles { padding: 36px 0; }
+  .articles-block .news-articles .news-articles_right-content { padding: 0 24px; }
+  .articles-block .news-articles .news-articles_right-content h3 { font-size: 15px; }
+  .articles-block .news-articles .news-articles_right-content p { font-size: 14px; padding: 17px 0; }
+  .articles-block .banner_side-bar { height: 140px; }
+  /* About us */
+  .page_text_block { padding: 40px 0; }
+  .page_text_block .section_title { margin-bottom: 24px; }
+  .page_text_block .left_block { padding-right: 16px; }
+  .page_text_block .right_block { padding-left: 16px; }
+  .page_text_block p { font-size: 15px; }
+  /* Default template */
+  .page_content .single_page_content .section_title { font-size: 19px; padding: 7px 7px 7px 22px; min-width: 250px; }
+  .page_content .single_page_content .section_title.right:before { right: -21px; border-top: 43px solid #5b9bc4; border-right: 22px solid transparent; }
+  .page_content .single_page_content p { font-size: 15px; }
+  /* Link */
+  .single-article { margin-bottom: 28px; }
+  .single-article:first-of-type { padding-top: 28px; }
+  .single-article .title-block a { font-size: 16px; }
+  .single-article .content .inner-text { font-size: 15px; }
+  .single-article .content .more-link a { font-size: 15px; }
+  /* What is college */
+  .what_is_college { padding: 28px 0; }
+  .what_is_college .content { padding-left: 0; font-size: 15px; }
+  .what_is_college .content .more-link { margin-top: 19px; padding-bottom: 28px; }
+  .what_is_college .content .more-link a { font-size: 15px; margin-top: 19px; padding-bottom: 28px; }
+  .what_is_college .link_college_advantage ul li { margin: 12px; }
+  .what_is_college .link_college_advantage ul li a { font-size: 21px; padding: 24px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+  /* Faq */
+  #faq .text_block { min-height: 270px; }
+  #faq .text_block h1 { font-size: 24px; }
+  #faq .text_block p { font-size: 15px; }
+  #faq .text_block .answer_btn { font-size: 14px; }
+  #faq .text_block .answer_btn a { font-size: 16px; }
+  /* Archive sort college widget */
+  body.category-5 .slider_top_block { margin-bottom: 28px; }
+  .sort_college_widget { max-width: 330px; padding: 56px 16px 16px 48px; }
+  .sort_college_widget .section_title { padding: 7px 20px 7px 20px; }
+  .sort_college_widget p { margin: 4px; }
+  .sort_college_widget p.wrap_results { margin-left: -30px; }
+  .sort_college_widget .check { font-size: 14px; }
+  .sort_college_widget .check input[type="checkbox"] + label::before { height: 19px; width: 19px; }
+  .sort_college_widget .column_scroll { height: 180px; }
+  .post_preview figure { width: 130px; height: 130px; border: 6px solid rgba(206, 206, 206, 0.8); }
+  .post_preview .post_content .post_preview_title { font-size: 25px; }
+  .post_preview .post_content .text_post_block { padding: 4px; }
+  .post_preview .post_content .text_post_block p { font-size: 15px; }
+  .post_preview .post_content .more_post_block { padding-top: 16px; }
+  /* Single Post news */
+  .post_content { padding: 11px 0 28px; }
+  /* Archive College single page */
+  .college_info .wrap_post_thumbnail { width: 228px; height: 228px; border: 11px solid #eaeaea; margin: auto; }
+  .college_info .college_info_top_right .post_title { font-size: 27px; }
+  .college_info .college_info_top_right .post_except p { padding: 4px 0; }
+  .college_info .college_info_top_right .college_info_field_block .college_info_title, .college_info .college_info_top_right .college_info_field_block .college_info_phar { max-width: none; }
+  .for_student { padding: 28px; }
+  .for_student .title_section_for_student { font-size: 16px; }
+  .for_student p { font-size: 14px; }
+  .premium_content { padding: 28px 0; }
+  .premium_content .tabs_content .tabs_text_block p { font-size: 14px; }
+  .text_blue_row { padding: 28px 0; }
+  .text_blue_row .text_block { font-size: 14px; }
+  /* Footer */
+  footer h4 { font-size: 15px; margin-top: 8px; margin-bottom: 8px; }
+  footer .footer_menu_left ul li a, footer .footer_menu_right ul li a { font-size: 14px; } }
+@media only screen and (max-width: 1200px) { /* Slider top block */
+  .slider_top_block #top_carousel .top_slider_item > div { height: 400px; }
+  .slider_top_block #top_carousel .top_slider_item .text_block_item .content_text_block > * { margin: 0 5% 0 0; }
+  .slider_top_block #top_carousel .top_slider_item .text_block_item .content_text_block h2 { font-size: 50px; text-transform: uppercase; }
+  .slider_top_block #top_carousel .top_slider_item .text_block_item .content_text_block h3 { font-size: 34px; text-transform: uppercase; font-weight: 300; }
+  .slider_top_block #top_carousel .top_slider_item .text_block_item .content_text_block h4 { font-size: 24px; text-transform: uppercase; font-weight: 300; }
+  .slider_top_block #top_carousel .top_slider_item .text_block_item .content_text_block p { font-size: 12px; }
+  /* Advantage */
+  .advantages-block .wrap_advantages-block { min-height: 600px; }
+  /* Search form block */
+  .search_block .form_search .wrap_column_search_block .column-search_block .submit { margin-top: 0; padding: 4px; font-size: 16px; min-height: 46px; min-width: 100%; }
+  /* News and articles */
+  .articles-block .banner_side-bar { height: 138px; }
+  .articles-block .news-articles .news-articles_left-content { width: 33%; max-height: 140px; margin-top: 6px; }
+  .articles-block .news-articles .news-articles_right-content { width: 67%; }
+  .articles-block .news-articles .news-articles_right-content p { padding: 4px 0; }
+  /* What is college */
+  .what_is_college .link_college_advantage ul li a { font-size: 20px; padding: 20px; }
+  /* Faq */
+  #faq .text_block { max-width: 100%; }
+  #faq .text_block p { max-width: 100%; } }
+@media only screen and (max-width: 992px) { /* Home page */
+  .site_header .logo { float: none; padding: 4px 0 0px 0; }
+  .site_header .logo img { max-width: 124px; }
+  .site_header .main_navigation { float: none; text-align: center; padding: 0 0 6px; position: static; }
+  .site_header .main_navigation .accessibility { left: 14px; right: auto; top: 14px; }
+  /* Menu */
+  ul.menu li a { font-size: 0.8125em; line-height: 1.84615em; padding: 0 10px; }
+  /* Advantage */
+  .advantages-block .row .wrap_advantages-block:after { content: ""; position: absolute; bottom: 0; right: 0; left: 0; height: 4px; background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzgzN2I3YiIgc3RvcC1vcGFjaXR5PSIwLjE0Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjAuNTkiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA='); background-size: 100%; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(131, 123, 123, 0.14)), color-stop(100%, rgba(255, 255, 255, 0.59))); background-image: -moz-linear-gradient(rgba(131, 123, 123, 0.14), rgba(255, 255, 255, 0.59)); background-image: -webkit-linear-gradient(rgba(131, 123, 123, 0.14), rgba(255, 255, 255, 0.59)); background-image: linear-gradient(rgba(131, 123, 123, 0.14), rgba(255, 255, 255, 0.59)); }
+  .advantages-block .row:last-of-type .col-lg-6:first-of-type .wrap_advantages-block:after { display: block; }
+  .advantages-block .wrap_advantages-block { min-height: 1px; padding: 0 20px 10px; }
+  .advantages-block .wrap_advantages-block .advantages-icon { height: auto; }
+  .advantages-block .wrap_advantages-block .advantages-icon img { max-width: 80px; }
+  .advantages-block .wrap_advantages-block h2 { font-size: 24px; margin: 0 auto 8px auto; }
+  .advantages-block .wrap_advantages-block p { font-size: 16px; margin: 6px auto; }
+  /* Section title */
+  .section_title { margin-left: 16px; font-size: 18px; padding: 6px 6px 6px 22px; min-width: 270px; }
+  .section_title:before { left: -16px; border-top: 44px solid #5b9bc4; border-left: 20px solid transparent; border-bottom-right-radius: 15px; }
+  .section_title.right { margin-left: 0; margin-right: 17px; }
+  .section_title.right:before { right: -19px; border-top: 47px solid #5b9bc4; border-right: 22px solid transparent; border-bottom-left-radius: 300%; }
+  /* Search form block */
+  .search_block .form_search { padding: 16px 18px 0 16px; min-height: 1px; }
+  .search_block .form_search .wrp_search { margin-bottom: 16px; }
+  .search_block .form_search .wrap_column_search_block .column-search_block:first-of-type { padding-right: 8px; }
+  .search_block .form_search .wrap_column_search_block .column-search_block:last-of-type { padding-left: 8px; }
+  .search_block .form_search .wrap_column_search_block .column-search_block:last-of-type p:last-of-type { text-align: center; }
+  .search_block .form_search .wrap_column_search_block .column-search_block:nth-child(2) { padding: 0 8px; }
+  .search_block .form_search .wrap_column_search_block .column-search_block p { margin-bottom: 16px; }
+  .search_block .form_search .wrap_column_search_block .column-search_block .submit { margin-top: 0; padding: 4px; font-size: 16px; min-height: 46px; min-width: 100%; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; }
+  .search_block .form_search .wrap_column_search_block .column-search_block #sort_start, .search_block .form_search .wrap_column_search_block .column-search_block #reset_search { -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; font-size: 16px; padding: 8px 32px; }
+  .search_block .form_search .wrap_column_search_block .column-search_block #sort_start:after, .search_block .form_search .wrap_column_search_block .column-search_block #reset_search:after { -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; }
+  /* Carousel block */
+  .carousel_block .carousel_item { height: 204px; }
+  /* News and articles */
+  .articles-block .banner_side-bar { height: 138px; }
+  .articles-block .banner_side-bar:first-of-type { margin-top: 30px; }
+  .articles-block .news-articles { padding: 24px 0; }
+  .articles-block .news-articles .news-articles_left-content { float: none; width: 100%; text-align: center; max-height: 140px; margin-top: 6px; }
+  .articles-block .news-articles .news-articles_left-content img { width: 180px; margin: 0 auto 16px; }
+  .articles-block .news-articles .news-articles_right-content { float: none; width: 100%; }
+  .articles-block .news-articles .news-articles_right-content p { padding: 4px 0; }
+  /* Footer */
+  footer h4 { padding: 0; text-align: center; }
+  footer .footer_menu_right, footer .footer_menu_left { text-align: center; }
+  footer .footer_menu_right ul, footer .footer_menu_left ul { text-align: right; display: inline-block; padding-left: 0; }
+  footer .footer_menu_right ul li, footer .footer_menu_left ul li { direction: rtl; }
+  footer .contacts { text-align: center; }
+  footer .contacts .contacts_btn { margin: auto; text-align: center; }
+  footer .contacts .contacts_btn a { padding: 0; }
+  footer .footer_logo { padding: 16px 0 0; text-align: center; }
+  footer .copyright { text-align: center; }
+  footer .copyright p { margin-bottom: 16px; }
+  /* About us page */
+  .page_text_block { padding: 24px 0; }
+  .page_text_block p { margin: 8px 0; font-size: 16px; }
+  .page_text_block .left_block { padding: 0 14px; }
+  .page_text_block .left_block p { max-width: 100%; }
+  .page_text_block .right_block { padding: 0 14px; }
+  .page_text_block .right_block p { max-width: 100%; }
+  /* Link */
+  .single-article .title-block .section_title { margin-left: 0; font-size: 16px; padding: 6px 28px; }
+  .single-article .title-block .section_title.right:before { right: -19px; border-top: 43px solid #5b9bc4; border-right: 22px solid transparent; border-bottom-left-radius: 300%; }
+  /* Default template text block */
+  .page_content .single_page_content .section_title { margin-left: 0; font-size: 16px; }
+  .page_content .single_page_content .section_title.right:before { right: -19px; border-top: 43px solid #5b9bc4; border-right: 22px solid transparent; border-bottom-left-radius: 300%; }
+  .page_content .content p { font-size: 16px; }
+  /*Page link */
+  .single-article .section_title:before { left: -17px; }
+  .single-article .content .inner-text { margin-top: 14px; font-size: 16px; }
+  .single-article .content .more-link { margin-top: 14px; padding-bottom: 24px; }
+  .single-article .content .more-link a { font-size: 16px; }
+  /* What is college */
+  .what_is_college .section_title:before { left: -19px; border-top: 49px solid #5b9bc4; border-left: 23px solid transparent; border-bottom-right-radius: 15px; }
+  .what_is_college .content p { font-size: 16px; line-height: 1.4; }
+  .what_is_college .content .more-link { padding-bottom: 20px; }
+  .what_is_college .link_college_advantage ul { -webkit-flex-flow: row wrap; flex-flow: row wrap; }
+  .what_is_college .link_college_advantage ul li { width: 45%; }
+  .what_is_college .link_college_advantage ul li:nth-of-type(2) { margin-right: 0; }
+  .what_is_college .link_college_advantage ul li:nth-of-type(2) i { display: none; }
+  .what_is_college .link_college_advantage ul li:nth-of-type(3) { margin-left: 0; }
+  /* Faq */
+  #faq .find_btn { margin: 24px auto 0px auto; }
+  #faq .form_ms { margin: 0 auto; }
+  #faq .form_ms .name { max-width: 450px; width: 100%; }
+  #faq .form_ms .feedback { display: block; margin: 14px 0 0; }
+  /* Sort widget archive page */
+  .sort_college_widget { max-width: 100%; padding: 50px 14px 14px; }
+  .sort_college_widget .check input[type="checkbox"] + label { font-size: 11px; }
+  .sort_college_widget .check input[type="checkbox"] + label::before { margin: 2px 6px 0 0; }
+  .sort_college_widget .section_title:before { left: -17px; border-top: 48px solid #5b9bc4; border-left: 20px solid transparent; border-bottom-right-radius: 15px; }
+  .sort_college_widget .row_flex { display: -webkit-flex; display: flex; -webkit-flex-flow: row wrap; flex-flow: row wrap; -webkit-align-items: center; align-items: center; -webkit-justify-content: center; justify-content: center; }
+  .sort_college_widget .row_flex .column { width: 33%; padding: 0 2px; }
+  .sort_college_widget .row_flex .column:first-of-type { padding-right: 2px; padding-left: 0; }
+  .sort_college_widget .row_flex .column:last-of-type { padding-right: 0; padding-left: 2px; }
+  body.category-5 .slider_top_block { margin-bottom: 0; }
+  /* Archive College single page */
+  .college_info .wrap_post_thumbnail { width: 192px; height: 192px; border: 8px solid #eaeaea; margin: 0 auto; }
+  .college_info .college_info_top_right .post_title { text-align: center; } }
+@media only screen and (max-width: 860px) { /* Home page */
+  .site_header .logo img { max-width: 104px; }
+  /* Menu */
+  ul.menu { display: none; }
+  /* Mobil nav button */
+  .mobile-nav-button { display: block; }
+  .mobil_menu_wrap { display: block; } }
+@media only screen and (max-width: 768px) { /* Slider top block */
+  .slider_top_block #top_carousel .top_slider_item > div { height: 330px; }
+  .slider_top_block #top_carousel .top_slider_item .text_block_item .content_text_block { padding: 10px; }
+  .slider_top_block #top_carousel .top_slider_item .text_block_item .content_text_block > * { margin: 0 3% 0 0; }
+  .slider_top_block #top_carousel .top_slider_item .text_block_item .content_text_block h2 { font-size: 42px; text-transform: uppercase; }
+  .slider_top_block #top_carousel .top_slider_item .text_block_item .content_text_block h3 { font-size: 28px; text-transform: uppercase; font-weight: 300; }
+  .slider_top_block #top_carousel .top_slider_item .text_block_item .content_text_block h4 { font-size: 18px; text-transform: uppercase; font-weight: 300; }
+  .slider_top_block #top_carousel .top_slider_item .text_block_item .content_text_block p { font-size: 10px; }
+  /* Search form block */
+  .search_block .form_search { margin-top: 16px; }
+  .search_block .form_search .wrap_column_search_block .column-search_block .submit { font-size: 14px; }
+  /* Carousel block */
+  .carousel_block #slider_news .slick_arrow.slick_arrow_right { right: -20px; }
+  .carousel_block #slider_news .slick_arrow.slick_arrow_left { left: -20px; }
+  /* News and articles */
+  .articles-block .pagination_link { position: relative; bottom: 0; }
+  .articles-block .banner_side-bar { margin: 16px auto 0 auto; height: auto; max-width: 260px; height: 146px; }
+  .articles-block .banner_side-bar:first-of-type { margin-top: 0; }
+  .articles-block .news-articles { padding: 24px 0; }
+  .articles-block .news-articles .news-articles_left-content { float: none; width: 100%; text-align: center; max-height: 140px; margin-top: 6px; }
+  .articles-block .news-articles .news-articles_left-content img { width: 180px; margin: 0 auto 16px; }
+  .articles-block .news-articles .news-articles_right-content { float: none; width: 100%; }
+  .articles-block .news-articles .news-articles_right-content p { padding: 4px 0; }
+  /* Default template text block */
+  .page_content { padding: 0 14px; }
+  /* What is college */
+  .what_is_college .content { text-align: justify; }
+  .what_is_college .link_college_advantage ul li a { font-size: 18px; }
+  /* Faq */
+  #faq .text_block p { font-size: 16px; }
+  /* Sort widget archive page */
+  .sort_college_widget p.wrap_results { margin-left: 0; }
+  .sort_college_widget .row_flex { -webkit-flex-flow: row wrap; flex-flow: row wrap; }
+  .sort_college_widget .row_flex .column { width: 33%; }
+  .sort_college_widget .row_flex .column:last-of-type { width: 100%; }
+  /* Archive College single page */
+  .post_preview { -webkit-flex-flow: row wrap; flex-flow: row wrap; }
+  .post_preview .post_content { padding-left: 0; }
+  .post_preview .post_content { width: 100%; }
+  .post_preview .post_content .post_preview_title { text-align: center; }
+  .post_preview .post_content .more_post_block { text-align: center; } }
+@media only screen and (max-width: 640px) { /* Slider top block */
+  .slider_top_block #top_carousel .slick_arrow { width: 18px; height: 31px; margin-top: -15px; }
+  .slider_top_block #top_carousel .top_slider_item { display: block; }
+  .slider_top_block #top_carousel .top_slider_item > div { width: 100%; max-width: 100%; height: 330px; }
+  .slider_top_block #top_carousel .top_slider_item .text_block_item { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(91, 155, 196, 0.4); text-align: center; }
+  .slider_top_block #top_carousel .top_slider_item .text_block_item .content_text_block { padding: 10px; }
+  .slider_top_block #top_carousel .top_slider_item .text_block_item .content_text_block > * { margin: 0 auto 0; }
+  .slider_top_block #top_carousel .top_slider_item .text_block_item .content_text_block h2 { font-size: 42px; text-transform: uppercase; }
+  .slider_top_block #top_carousel .top_slider_item .text_block_item .content_text_block h3 { font-size: 28px; text-transform: uppercase; font-weight: 300; }
+  .slider_top_block #top_carousel .top_slider_item .text_block_item .content_text_block h4 { font-size: 18px; text-transform: uppercase; font-weight: 300; }
+  .slider_top_block #top_carousel .top_slider_item .text_block_item .content_text_block p { font-size: 10px; }
+  /* Search form block */
+  .search_block { padding-bottom: 24px; }
+  .search_block .form_search { margin-top: 16px; }
+  .search_block .form_search input { padding: 4px 10px; }
+  .search_block .form_search .wrap_column_search_block .column-search_block .select2-container--default .select2-selection--single { padding: 3px 10px; background: #fff; height: auto; }
+  .search_block .form_search .wrap_column_search_block .column-search_block .select2-container--default .select2-selection--single .select2-selection__arrow { height: 35px; position: absolute; top: 1px; right: 4px; width: 24px; }
+  .search_block .form_search .wrap_column_search_block .column-search_block .submit { font-size: 13px; min-height: 36px; margin-top: -1px; }
+  /* Section title */
+  .section_title { min-width: 45%; max-width: 100%; }
+  .page_content .single_page_content .section_title { min-width: 75%; max-width: 100%; }
+  .page_content .single_page_content .section_title.right { margin-right: 0; }
+  /* Carousel block */
+  .carousel_block #slider_news .slick_arrow.slick_arrow_right { right: 16px; }
+  .carousel_block #slider_news .slick_arrow.slick_arrow_left { left: 16px; }
+  /* Footer */
+  footer .container .row { margin: 0; }
+  /* Faq */
+  #faq .text_block { padding: 0 14px; }
+  /* link */
+  .single-article .content { padding-left: 0; }
+  /* What is college */
+  .what_is_college .content { padding-left: 0; }
+  /* Archive College single page */
+  .post_preview { padding: 0 14px; } }
+@media only screen and (max-width: 580px) { /* Search results */
+  body.page-id-292 .slider_top_block { margin-bottom: 0; }
+  /* Search form block */
+  .search_block .form_search .wrap_column_search_block { -webkit-flex-flow: row wrap; flex-flow: row wrap; }
+  .search_block .form_search .wrap_column_search_block .column-search_block { width: 100%; }
+  .search_block .form_search .wrap_column_search_block .column-search_block:first-of-type { padding-right: 0; }
+  .search_block .form_search .wrap_column_search_block .column-search_block:last-of-type { padding-left: 0; }
+  .search_block .form_search .wrap_column_search_block .column-search_block:last-of-type p:last-of-type { text-align: center; }
+  .search_block .form_search .wrap_column_search_block .column-search_block:nth-child(2) { padding: 0; }
+  /* Sort widget archive page */
+  .sort_college_widget .section_title { min-width: 92%; max-width: 98%; }
+  .sort_college_widget .row_flex { -webkit-flex-flow: row wrap; flex-flow: row wrap; }
+  .sort_college_widget .row_flex .column { width: 50%; }
+  .sort_college_widget .row_flex .column:last-of-type { width: 100%; }
+  .text_blue_row { padding: 14px; }
+  .map_block { padding: 28px 0; } }
+@media only screen and (max-width: 480px) { /* Section title */
+  .section_title { min-width: 94%; max-width: 100%; }
+  /*Page link */
+  .single-article .section_title { min-width: 1px; }
+  .single-article .section_title:before { left: -17px; }
+  /* What is college */
+  .what_is_college .link_college_advantage ul li { width: 100%; margin-left: 0; margin-right: 0; }
+  .what_is_college .link_college_advantage ul li i { display: none; }
+  .what_is_college .link_college_advantage ul li a { font-size: 18px; }
+  /* Archive College single page */
+  .college_info .college_info_top_right .post-ratings .button_rating { position: relative; display: block; text-align: center; margin-top: 6px; margin-left: 0; }
+  .college_info .college_info_top_right .post-ratings .post-ratings-text { top: 32px; bottom: auto; }
+  .college_info .college_info_top_right .college_info_field_block > * { margin: auto !important; }
+  .for_student { padding: 14px; }
+  .premium_content { padding: 0; }
+  .premium_content .tabs_block { margin-bottom: 14px; }
+  .premium_content .tabs_block .header_tabs .nav_tab li:last-of-type a:after { width: 65%; min-width: 45px; left: 55%; }
+  .premium_content .tabs_block .header_tabs .nav_tab li:last-of-type.active a:after { width: 65%; min-width: 45px; left: 55%; }
+  .premium_content .tabs_content .single_tabs_content { padding-left: 0; }
+  .video_block .video iframe { height: 218px !important; } }

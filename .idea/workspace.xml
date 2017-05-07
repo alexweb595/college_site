@@ -1,0 +1,1691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e3c797dd-2443-4ea4-a588-cdadd22740de" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.45983934">
+      <split-first>
+        <splitter split-orientation="vertical" split-proportion="0.9">
+          <split-first>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/footer.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="85">
+                      <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/sass/main.scss">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="-34">
+                      <caret line="2018" column="7" lean-forward="false" selection-start-line="2018" selection-start-column="7" selection-end-line="2018" selection-end-column="7" />
+                      <folding>
+                        <element signature="e#657#709#0" expanded="false" />
+                        <element signature="e#721#801#0" expanded="false" />
+                        <element signature="e#775#799#0" expanded="false" />
+                        <element signature="e#818#1711#0" expanded="false" />
+                        <element signature="e#1158#1380#0" expanded="false" />
+                        <element signature="e#1724#1770#0" expanded="false" />
+                        <element signature="e#1789#2567#0" expanded="false" />
+                        <element signature="e#2580#3379#0" expanded="false" />
+                        <element signature="e#2801#2868#0" expanded="false" />
+                        <element signature="e#2886#3083#0" expanded="false" />
+                        <element signature="e#3394#3808#0" expanded="false" />
+                        <element signature="e#3880#4379#0" expanded="false" />
+                        <element signature="e#4192#4216#0" expanded="false" />
+                        <element signature="e#4227#4377#0" expanded="false" />
+                        <element signature="e#4393#4505#0" expanded="false" />
+                        <element signature="e#4530#5304#0" expanded="false" />
+                        <element signature="e#5362#5550#0" expanded="false" />
+                        <element signature="e#5576#5622#0" expanded="false" />
+                        <element signature="e#5673#5713#0" expanded="false" />
+                        <element signature="e#5759#5878#0" expanded="false" />
+                        <element signature="e#5939#5962#0" expanded="false" />
+                        <element signature="e#6011#6100#0" expanded="false" />
+                        <element signature="e#6149#6169#0" expanded="false" />
+                        <element signature="e#6218#6308#0" expanded="false" />
+                        <element signature="e#6367#7830#0" expanded="false" />
+                        <element signature="e#7891#8026#0" expanded="false" />
+                        <element signature="e#8091#8578#0" expanded="false" />
+                        <element signature="e#8623#9740#0" expanded="false" />
+                        <element signature="e#9789#12977#0" expanded="false" />
+                        <element signature="e#9886#10154#0" expanded="false" />
+                        <element signature="e#10063#10093#0" expanded="false" />
+                        <element signature="e#10119#10148#0" expanded="false" />
+                        <element signature="e#10176#12971#0" expanded="false" />
+                        <element signature="e#10304#10682#0" expanded="false" />
+                        <element signature="e#11345#12184#0" expanded="false" />
+                        <element signature="e#13013#13839#0" expanded="false" />
+                        <element signature="e#13103#13342#0" expanded="false" />
+                        <element signature="e#13399#13461#0" expanded="false" />
+                        <element signature="e#13879#18401#0" expanded="false" />
+                        <element signature="e#14332#14539#0" expanded="false" />
+                        <element signature="e#14551#14651#0" expanded="false" />
+                        <element signature="e#16592#16835#0" expanded="false" />
+                        <element signature="e#18037#18381#0" expanded="false" />
+                        <element signature="e#18440#19964#0" expanded="false" />
+                        <element signature="e#20006#22924#0" expanded="false" />
+                        <element signature="e#20229#20315#0" expanded="false" />
+                        <element signature="e#20335#20393#0" expanded="false" />
+                        <element signature="e#20426#20720#0" expanded="false" />
+                        <element signature="e#21583#21611#0" expanded="false" />
+                        <element signature="e#22958#23209#0" expanded="false" />
+                        <element signature="e#23226#25206#0" expanded="false" />
+                        <element signature="e#23402#23636#0" expanded="false" />
+                        <element signature="e#25235#26024#0" expanded="false" />
+                        <element signature="e#26065#28373#0" expanded="false" />
+                        <element signature="e#26193#26595#0" expanded="false" />
+                        <element signature="e#26622#28371#0" expanded="false" />
+                        <element signature="e#28414#28605#0" expanded="false" />
+                        <element signature="e#28628#31496#0" expanded="false" />
+                        <element signature="e#28828#28940#0" expanded="false" />
+                        <element signature="e#28945#30283#0" expanded="false" />
+                        <element signature="e#30293#31037#0" expanded="false" />
+                        <element signature="e#31512#33883#0" expanded="false" />
+                        <element signature="e#31698#31838#0" expanded="false" />
+                        <element signature="e#31960#32551#0" expanded="false" />
+                        <element signature="e#32211#32547#0" expanded="false" />
+                        <element signature="e#33157#33877#0" expanded="false" />
+                        <element signature="e#33917#35380#0" expanded="false" />
+                        <element signature="e#35430#40067#0" expanded="false" />
+                        <element signature="e#35803#40065#0" expanded="false" />
+                        <element signature="e#36213#39048#0" expanded="false" />
+                        <element signature="e#39079#40061#0" expanded="false" />
+                        <element signature="e#40082#41322#0" expanded="false" />
+                        <element signature="e#41852#44512#0" expanded="false" />
+                        <element signature="e#44892#44925#0" expanded="false" />
+                        <element signature="e#47177#48676#0" expanded="false" />
+                        <element signature="e#48693#48911#0" expanded="false" />
+                        <element signature="e#48926#49731#0" expanded="false" />
+                        <element signature="e#49744#50457#0" expanded="false" />
+                        <element signature="e#50478#50634#0" expanded="false" />
+                        <element signature="e#50673#51391#0" expanded="false" />
+                        <element signature="e#51433#52957#0" expanded="false" />
+                        <element signature="e#52985#53067#0" expanded="false" />
+                        <element signature="e#53085#53452#0" expanded="false" />
+                        <element signature="e#53506#55694#0" expanded="false" />
+                        <element signature="e#53719#53974#0" expanded="false" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="main_app.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/js/main_app.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="255">
+                      <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+                      <folding>
+                        <element signature="e#854#934#0" expanded="false" />
+                        <element signature="e#1037#1148#0" expanded="false" />
+                        <element signature="e#1257#1775#0" expanded="false" />
+                        <element signature="e#1880#2472#0" expanded="false" />
+                        <element signature="e#2570#3749#0" expanded="false" />
+                        <element signature="e#3873#4200#0" expanded="false" />
+                        <element signature="e#4262#4612#0" expanded="false" />
+                        <element signature="e#4732#5019#0" expanded="false" />
+                        <element signature="e#5146#5308#0" expanded="false" />
+                        <element signature="e#5460#5520#0" expanded="false" />
+                        <element signature="e#5555#18714#0" expanded="false" />
+                        <element signature="e#18837#18997#0" expanded="false" />
+                        <element signature="e#19050#19138#0" expanded="false" />
+                        <element signature="e#19169#20117#0" expanded="false" />
+                        <element signature="e#20159#20243#0" expanded="false" />
+                        <element signature="e#20289#22142#0" expanded="false" />
+                        <element signature="e#22256#22717#0" expanded="false" />
+                        <element signature="e#22845#22874#0" expanded="false" />
+                        <element signature="e#22902#23149#0" expanded="false" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file leaf-file-name="content-home-page.php" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-home-page.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="0">
+                      <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+                      <folding>
+                        <marker date="1491479079434" expanded="true" signature="9732:9808" ph="..." />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="media.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/sass/media.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="731">
+                  <caret line="300" column="3" lean-forward="false" selection-start-line="300" selection-start-column="3" selection-end-line="300" selection-end-column="3" />
+                  <folding>
+                    <element signature="e#503#530#0" expanded="false" />
+                    <element signature="e#570#963#0" expanded="false" />
+                    <element signature="e#1033#1477#0" expanded="false" />
+                    <element signature="e#1516#1873#0" expanded="false" />
+                    <element signature="e#1916#2602#0" expanded="false" />
+                    <element signature="e#2173#2432#0" expanded="false" />
+                    <element signature="e#2187#2230#0" expanded="false" />
+                    <element signature="e#2296#2422#0" expanded="false" />
+                    <element signature="e#2459#2494#0" expanded="false" />
+                    <element signature="e#2556#2592#0" expanded="false" />
+                    <element signature="e#2644#2718#0" expanded="false" />
+                    <element signature="e#2763#3090#0" expanded="false" />
+                    <element signature="e#2810#3036#0" expanded="false" />
+                    <element signature="e#3127#3346#0" expanded="false" />
+                    <element signature="e#3388#3767#0" expanded="false" />
+                    <element signature="e#3799#4082#0" expanded="false" />
+                    <element signature="e#3846#3878#0" expanded="false" />
+                    <element signature="e#4126#4636#0" expanded="false" />
+                    <element signature="e#4162#4407#0" expanded="false" />
+                    <element signature="e#4656#4899#0" expanded="false" />
+                    <element signature="e#4943#5036#0" expanded="false" />
+                    <element signature="e#5060#5462#0" expanded="false" />
+                    <element signature="e#5479#5839#0" expanded="false" />
+                    <element signature="e#5881#5912#0" expanded="false" />
+                    <element signature="e#5965#6401#0" expanded="false" />
+                    <element signature="e#5992#6094#0" expanded="false" />
+                    <element signature="e#6123#6397#0" expanded="false" />
+                    <element signature="e#6197#6254#0" expanded="false" />
+                    <element signature="e#6417#6540#0" expanded="false" />
+                    <element signature="e#6737#6810#0" expanded="false" />
+                    <element signature="e#6835#7078#0" expanded="false" />
+                    <element signature="e#7114#8970#0" expanded="false" />
+                    <element signature="e#9038#9367#0" expanded="false" />
+                    <element signature="e#9391#9498#0" expanded="false" />
+                    <element signature="e#9537#10432#0" expanded="false" />
+                    <element signature="e#10472#10977#0" expanded="false" />
+                    <element signature="e#11020#12082#0" expanded="false" />
+                    <element signature="e#12124#12177#0" expanded="false" />
+                    <element signature="e#12222#12765#0" expanded="false" />
+                    <element signature="e#12790#13429#0" expanded="false" />
+                    <element signature="e#13471#13736#0" expanded="false" />
+                    <element signature="e#13768#14131#0" expanded="false" />
+                    <element signature="e#14184#14592#0" expanded="false" />
+                    <element signature="e#14234#14518#0" expanded="false" />
+                    <element signature="e#14538#14588#0" expanded="false" />
+                    <element signature="e#14628#14938#0" expanded="false" />
+                    <element signature="e#14982#15670#0" expanded="false" />
+                    <element signature="e#15690#15939#0" expanded="false" />
+                    <element signature="e#15996#16825#0" expanded="false" />
+                    <element signature="e#16833#16923#0" expanded="false" />
+                    <element signature="e#16976#17202#0" expanded="false" />
+                    <element signature="e#17003#17106#0" expanded="false" />
+                    <element signature="e#17272#17341#0" expanded="false" />
+                    <element signature="e#17365#17389#0" expanded="false" />
+                    <element signature="e#17436#17461#0" expanded="false" />
+                    <element signature="e#17481#17506#0" expanded="false" />
+                    <element signature="e#17588#18309#0" expanded="false" />
+                    <element signature="e#18352#18550#0" expanded="false" />
+                    <element signature="e#18592#18777#0" expanded="false" />
+                    <element signature="e#18822#19510#0" expanded="false" />
+                    <element signature="e#19563#19589#0" expanded="false" />
+                    <element signature="e#19633#19819#0" expanded="false" />
+                    <element signature="e#19839#19911#0" expanded="false" />
+                    <element signature="e#19968#20202#0" expanded="false" />
+                    <element signature="e#20255#20513#0" expanded="false" />
+                    <element signature="e#20595#21672#0" expanded="false" />
+                    <element signature="e#21715#22457#0" expanded="false" />
+                    <element signature="e#22497#22543#0" expanded="false" />
+                    <element signature="e#22560#22733#0" expanded="false" />
+                    <element signature="e#22775#22958#0" expanded="false" />
+                    <element signature="e#22983#23051#0" expanded="false" />
+                    <element signature="e#23071#23123#0" expanded="false" />
+                    <element signature="e#23155#23204#0" expanded="false" />
+                    <element signature="e#23248#23297#0" expanded="false" />
+                    <element signature="e#23443#23534#0" expanded="false" />
+                    <element signature="e#23577#24065#0" expanded="false" />
+                    <element signature="e#24122#24358#0" expanded="false" />
+                    <element signature="e#24516#24562#0" expanded="false" />
+                    <element signature="e#24598#24698#0" expanded="false" />
+                    <element signature="e#24742#25009#0" expanded="false" />
+                    <element signature="e#25062#25492#0" expanded="false" />
+                    <element signature="e#25114#25381#0" expanded="false" />
+                    <element signature="e#25414#25482#0" expanded="false" />
+                    <element signature="e#25508#25532#0" expanded="false" />
+                    <element signature="e#25552#25624#0" expanded="false" />
+                    <element signature="e#25702#25759#0" expanded="false" />
+                    <element signature="e#25844#25901#0" expanded="false" />
+                    <element signature="e#25956#25982#0" expanded="false" />
+                    <element signature="e#26012#26047#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/header.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="51">
+                  <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="Pug File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find />
+      <find />
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/wp-content/themes/college-themes/sass/media.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/wp-content/themes/college-themes/sass/_media_query_mixin.scss" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/wp-content/themes/college-themes/sass/_modal.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/wp-content/themes/college-themes/sass/main.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/wp-content/themes/college-themes/sass/_fonts.scss" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/js/main_app.ts" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-about_us-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/template-module/content-slider_img_text_block.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/index.pug" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/template-module/single-post_preview_news.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/inc/kama_view_post.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/template-module/content-slider_img_full.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-archive_college.php" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/sass/_vars.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/business-single_college.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/business-single-college.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/single-post-template/post_templates.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/inc/acf_add_single_post_template.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/defaul-single_college.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/single-business_college.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-busines_single_college.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/single.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-postratings/js/postratings-js.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-postratings/js/postratings-admin-js.dev.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-postratings/wp-postratings.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/inc/hooks.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-single-college.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-default_single_college.php" />
+        <option value="$PROJECT_DIR$/wp-admin/admin-ajax.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/inc/query_ajax.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-home-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/sidebar.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/page-search-results.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/inc/ajax.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/archive.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/sass/_modal.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-default-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-link-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-what_is_college.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-business_single_college.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/sass/_accessibility.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/inc/accessibility.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/js/accessibility.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-faq-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/stylesheets/media.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/edit_themes.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/js/main_app.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/sass/_media_query_mixin.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-default-single-post.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/sass/main.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/sass/media.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/college-themes/header.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collegewp.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collegewp.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collegewp.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collegewp.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collegewp.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collegewp.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collegewp.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collegewp.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="college-themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.VCS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\collegewp.com\wp-content\themes\college-themes\libs\select2-master" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\collegewp.com\wp-content\themes\college-themes" />
+      <recent name="C:\OpenServer\domains\collegewp.com\wp-content\themes\college-themes\images" />
+      <recent name="C:\OpenServer\domains\collegewp.com\wp-content\plugins\wp-postratings\images\my_star" />
+      <recent name="C:\OpenServer\domains\collegewp.com\wp-content\themes\college-themes\libs" />
+      <recent name="C:\OpenServer\domains\collegewp.com\wp-content\themes\college-themes\images\icon" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JRubyCucumberRunConfigurationType" factoryName="JRuby Cucumber">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-Dforce.jruby.jit=true -Djruby.debug.fullTrace=true" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="collegewp.com" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3c797dd-2443-4ea4-a588-cdadd22740de" name="Default" comment="" />
+      <created>1490088126676</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1490088126676</updated>
+      <workItem from="1490088128136" duration="14333000" />
+      <workItem from="1490105127041" duration="23322000" />
+      <workItem from="1490177200017" duration="20762000" />
+      <workItem from="1490207590488" duration="15666000" />
+      <workItem from="1490255692260" duration="41514000" />
+      <workItem from="1490355415136" duration="31324000" />
+      <workItem from="1490433637375" duration="18000" />
+      <workItem from="1490481825179" duration="3334000" />
+      <workItem from="1490513077092" duration="594000" />
+      <workItem from="1490527940885" duration="14875000" />
+      <workItem from="1490606650253" duration="10830000" />
+      <workItem from="1490640467923" duration="4000" />
+      <workItem from="1490640823257" duration="189000" />
+      <workItem from="1490641351563" duration="484000" />
+      <workItem from="1490641956205" duration="462000" />
+      <workItem from="1490642673886" duration="590000" />
+      <workItem from="1490645896031" duration="266000" />
+      <workItem from="1490648184725" duration="591000" />
+      <workItem from="1490652158229" duration="582000" />
+      <workItem from="1490692248104" duration="35580000" />
+      <workItem from="1490771856700" duration="40956000" />
+      <workItem from="1490868096693" duration="21133000" />
+      <workItem from="1490904611183" duration="466000" />
+      <workItem from="1490945028628" duration="12479000" />
+      <workItem from="1491039593349" duration="604000" />
+      <workItem from="1491046283579" duration="3723000" />
+      <workItem from="1491123347127" duration="32137000" />
+      <workItem from="1491208046388" duration="45759000" />
+      <workItem from="1491297595939" duration="21145000" />
+      <workItem from="1491378057973" duration="35732000" />
+      <workItem from="1491463179008" duration="35222000" />
+      <workItem from="1491551794568" duration="4843000" />
+      <workItem from="1491589249884" duration="13324000" />
+      <workItem from="1491650013539" duration="10908000" />
+      <workItem from="1491733523012" duration="613000" />
+      <workItem from="1491963425379" duration="1534000" />
+      <workItem from="1491981800191" duration="1281000" />
+      <workItem from="1493981148971" duration="15487000" />
+      <workItem from="1494067364092" duration="21479000" />
+      <workItem from="1494154087645" duration="48000" />
+      <workItem from="1494158126446" duration="2587000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="536780000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37375966" sideWeight="0.5063966" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37375966" sideWeight="0.4936034" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20788912" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35942668" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08489526" sideWeight="0.49573562" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14498934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>C:\OpenServer\domains\collegewp.com</wordpressPath>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="21" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-postratings/js/postratings-js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-postratings/includes/postratings-i18n.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-postratings/includes/postratings-scripts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-707">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-postratings/wp-postratings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="99" column="113" lean-forward="false" selection-start-line="99" selection-start-column="113" selection-end-line="99" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-postratings/uninstall.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-642">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-postratings/images/stars/rating_half-rtl.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-postratings/images/stars/rating_on.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-postratings/images/my_stars/rating_over.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-postratings/images/stars(png)/rating_on.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-postratings/images/stars/rating_over.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-postratings/images/my_stars/rating_half.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-postratings/images/stars/rating_half.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-postratings/images/stars/rating_off.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/inc/hooks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="89" column="80" lean-forward="false" selection-start-line="89" selection-start-column="80" selection-end-line="89" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-postratings/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="394" column="30" lean-forward="true" selection-start-line="394" selection-start-column="0" selection-end-line="397" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/defaul-single_college.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/single-business_college.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-single-college.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-postratings/includes/postratings-stats.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-default_single_college.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="44" column="51" lean-forward="false" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/admin-ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="414" column="195" lean-forward="true" selection-start-line="414" selection-start-column="51" selection-end-line="414" selection-end-column="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/inc/query_ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="95" column="34" lean-forward="false" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-archive_college.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="72" column="51" lean-forward="false" selection-start-line="72" selection-start-column="51" selection-end-line="72" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/page-search-results.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="167" column="24" lean-forward="false" selection-start-line="167" selection-start-column="24" selection-end-line="167" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/sass/_modal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-default-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-link-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-what_is_college.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" column="53" lean-forward="false" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/sass/_accessibility.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="122" column="1" lean-forward="false" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-home-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding>
+            <marker date="1491479079434" expanded="true" signature="9732:9808" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/inc/accessibility.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="6" lean-forward="false" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/js/accessibility.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1241">
+          <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-faq-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-business_single_college.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+          <folding>
+            <marker date="1491654807816" expanded="true" signature="11901:11978" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/inc/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="297" column="0" lean-forward="false" selection-start-line="297" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/edit_themes.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/js/main_app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="e#854#934#0" expanded="false" />
+            <element signature="e#1037#1148#0" expanded="false" />
+            <element signature="e#1257#1775#0" expanded="false" />
+            <element signature="e#1880#2472#0" expanded="false" />
+            <element signature="e#2570#3749#0" expanded="false" />
+            <element signature="e#3873#4200#0" expanded="false" />
+            <element signature="e#4262#4612#0" expanded="false" />
+            <element signature="e#4732#5019#0" expanded="false" />
+            <element signature="e#5146#5308#0" expanded="false" />
+            <element signature="e#5460#5520#0" expanded="false" />
+            <element signature="e#5555#18714#0" expanded="false" />
+            <element signature="e#18837#18997#0" expanded="false" />
+            <element signature="e#19050#19138#0" expanded="false" />
+            <element signature="e#19169#20117#0" expanded="false" />
+            <element signature="e#20159#20243#0" expanded="false" />
+            <element signature="e#20289#22142#0" expanded="false" />
+            <element signature="e#22256#22717#0" expanded="false" />
+            <element signature="e#22845#22874#0" expanded="false" />
+            <element signature="e#22902#23149#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/sass/_media_query_mixin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="130" column="3" lean-forward="false" selection-start-line="130" selection-start-column="3" selection-end-line="130" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/template-parts/content-default-single-post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/stylesheets/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/sass/media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="300" column="3" lean-forward="false" selection-start-line="300" selection-start-column="3" selection-end-line="300" selection-end-column="3" />
+          <folding>
+            <element signature="e#503#530#0" expanded="false" />
+            <element signature="e#570#963#0" expanded="false" />
+            <element signature="e#1033#1477#0" expanded="false" />
+            <element signature="e#1516#1873#0" expanded="false" />
+            <element signature="e#1916#2602#0" expanded="false" />
+            <element signature="e#2173#2432#0" expanded="false" />
+            <element signature="e#2187#2230#0" expanded="false" />
+            <element signature="e#2296#2422#0" expanded="false" />
+            <element signature="e#2459#2494#0" expanded="false" />
+            <element signature="e#2556#2592#0" expanded="false" />
+            <element signature="e#2644#2718#0" expanded="false" />
+            <element signature="e#2763#3090#0" expanded="false" />
+            <element signature="e#2810#3036#0" expanded="false" />
+            <element signature="e#3127#3346#0" expanded="false" />
+            <element signature="e#3388#3767#0" expanded="false" />
+            <element signature="e#3799#4082#0" expanded="false" />
+            <element signature="e#3846#3878#0" expanded="false" />
+            <element signature="e#4126#4636#0" expanded="false" />
+            <element signature="e#4162#4407#0" expanded="false" />
+            <element signature="e#4656#4899#0" expanded="false" />
+            <element signature="e#4943#5036#0" expanded="false" />
+            <element signature="e#5060#5462#0" expanded="false" />
+            <element signature="e#5479#5839#0" expanded="false" />
+            <element signature="e#5881#5912#0" expanded="false" />
+            <element signature="e#5965#6401#0" expanded="false" />
+            <element signature="e#5992#6094#0" expanded="false" />
+            <element signature="e#6123#6397#0" expanded="false" />
+            <element signature="e#6197#6254#0" expanded="false" />
+            <element signature="e#6417#6540#0" expanded="false" />
+            <element signature="e#6737#6810#0" expanded="false" />
+            <element signature="e#6835#7078#0" expanded="false" />
+            <element signature="e#7114#8970#0" expanded="false" />
+            <element signature="e#9038#9367#0" expanded="false" />
+            <element signature="e#9391#9498#0" expanded="false" />
+            <element signature="e#9537#10432#0" expanded="false" />
+            <element signature="e#10472#10977#0" expanded="false" />
+            <element signature="e#11020#12082#0" expanded="false" />
+            <element signature="e#12124#12177#0" expanded="false" />
+            <element signature="e#12222#12765#0" expanded="false" />
+            <element signature="e#12790#13429#0" expanded="false" />
+            <element signature="e#13471#13736#0" expanded="false" />
+            <element signature="e#13768#14131#0" expanded="false" />
+            <element signature="e#14184#14592#0" expanded="false" />
+            <element signature="e#14234#14518#0" expanded="false" />
+            <element signature="e#14538#14588#0" expanded="false" />
+            <element signature="e#14628#14938#0" expanded="false" />
+            <element signature="e#14982#15670#0" expanded="false" />
+            <element signature="e#15690#15939#0" expanded="false" />
+            <element signature="e#15996#16825#0" expanded="false" />
+            <element signature="e#16833#16923#0" expanded="false" />
+            <element signature="e#16976#17202#0" expanded="false" />
+            <element signature="e#17003#17106#0" expanded="false" />
+            <element signature="e#17272#17341#0" expanded="false" />
+            <element signature="e#17365#17389#0" expanded="false" />
+            <element signature="e#17436#17461#0" expanded="false" />
+            <element signature="e#17481#17506#0" expanded="false" />
+            <element signature="e#17588#18309#0" expanded="false" />
+            <element signature="e#18352#18550#0" expanded="false" />
+            <element signature="e#18592#18777#0" expanded="false" />
+            <element signature="e#18822#19510#0" expanded="false" />
+            <element signature="e#19563#19589#0" expanded="false" />
+            <element signature="e#19633#19819#0" expanded="false" />
+            <element signature="e#19839#19911#0" expanded="false" />
+            <element signature="e#19968#20202#0" expanded="false" />
+            <element signature="e#20255#20513#0" expanded="false" />
+            <element signature="e#20595#21672#0" expanded="false" />
+            <element signature="e#21715#22457#0" expanded="false" />
+            <element signature="e#22497#22543#0" expanded="false" />
+            <element signature="e#22560#22733#0" expanded="false" />
+            <element signature="e#22775#22958#0" expanded="false" />
+            <element signature="e#22983#23051#0" expanded="false" />
+            <element signature="e#23071#23123#0" expanded="false" />
+            <element signature="e#23155#23204#0" expanded="false" />
+            <element signature="e#23248#23297#0" expanded="false" />
+            <element signature="e#23443#23534#0" expanded="false" />
+            <element signature="e#23577#24065#0" expanded="false" />
+            <element signature="e#24122#24358#0" expanded="false" />
+            <element signature="e#24516#24562#0" expanded="false" />
+            <element signature="e#24598#24698#0" expanded="false" />
+            <element signature="e#24742#25009#0" expanded="false" />
+            <element signature="e#25062#25492#0" expanded="false" />
+            <element signature="e#25114#25381#0" expanded="false" />
+            <element signature="e#25414#25482#0" expanded="false" />
+            <element signature="e#25508#25532#0" expanded="false" />
+            <element signature="e#25552#25624#0" expanded="false" />
+            <element signature="e#25702#25759#0" expanded="false" />
+            <element signature="e#25844#25901#0" expanded="false" />
+            <element signature="e#25956#25982#0" expanded="false" />
+            <element signature="e#26012#26047#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="2018" column="7" lean-forward="false" selection-start-line="2018" selection-start-column="7" selection-end-line="2018" selection-end-column="7" />
+          <folding>
+            <element signature="e#657#709#0" expanded="false" />
+            <element signature="e#721#801#0" expanded="false" />
+            <element signature="e#775#799#0" expanded="false" />
+            <element signature="e#818#1711#0" expanded="false" />
+            <element signature="e#1158#1380#0" expanded="false" />
+            <element signature="e#1724#1770#0" expanded="false" />
+            <element signature="e#1789#2567#0" expanded="false" />
+            <element signature="e#2580#3379#0" expanded="false" />
+            <element signature="e#2801#2868#0" expanded="false" />
+            <element signature="e#2886#3083#0" expanded="false" />
+            <element signature="e#3394#3808#0" expanded="false" />
+            <element signature="e#3880#4379#0" expanded="false" />
+            <element signature="e#4192#4216#0" expanded="false" />
+            <element signature="e#4227#4377#0" expanded="false" />
+            <element signature="e#4393#4505#0" expanded="false" />
+            <element signature="e#4530#5304#0" expanded="false" />
+            <element signature="e#5362#5550#0" expanded="false" />
+            <element signature="e#5576#5622#0" expanded="false" />
+            <element signature="e#5673#5713#0" expanded="false" />
+            <element signature="e#5759#5878#0" expanded="false" />
+            <element signature="e#5939#5962#0" expanded="false" />
+            <element signature="e#6011#6100#0" expanded="false" />
+            <element signature="e#6149#6169#0" expanded="false" />
+            <element signature="e#6218#6308#0" expanded="false" />
+            <element signature="e#6367#7830#0" expanded="false" />
+            <element signature="e#7891#8026#0" expanded="false" />
+            <element signature="e#8091#8578#0" expanded="false" />
+            <element signature="e#8623#9740#0" expanded="false" />
+            <element signature="e#9789#12977#0" expanded="false" />
+            <element signature="e#9886#10154#0" expanded="false" />
+            <element signature="e#10063#10093#0" expanded="false" />
+            <element signature="e#10119#10148#0" expanded="false" />
+            <element signature="e#10176#12971#0" expanded="false" />
+            <element signature="e#10304#10682#0" expanded="false" />
+            <element signature="e#11345#12184#0" expanded="false" />
+            <element signature="e#13013#13839#0" expanded="false" />
+            <element signature="e#13103#13342#0" expanded="false" />
+            <element signature="e#13399#13461#0" expanded="false" />
+            <element signature="e#13879#18401#0" expanded="false" />
+            <element signature="e#14332#14539#0" expanded="false" />
+            <element signature="e#14551#14651#0" expanded="false" />
+            <element signature="e#16592#16835#0" expanded="false" />
+            <element signature="e#18037#18381#0" expanded="false" />
+            <element signature="e#18440#19964#0" expanded="false" />
+            <element signature="e#20006#22924#0" expanded="false" />
+            <element signature="e#20229#20315#0" expanded="false" />
+            <element signature="e#20335#20393#0" expanded="false" />
+            <element signature="e#20426#20720#0" expanded="false" />
+            <element signature="e#21583#21611#0" expanded="false" />
+            <element signature="e#22958#23209#0" expanded="false" />
+            <element signature="e#23226#25206#0" expanded="false" />
+            <element signature="e#23402#23636#0" expanded="false" />
+            <element signature="e#25235#26024#0" expanded="false" />
+            <element signature="e#26065#28373#0" expanded="false" />
+            <element signature="e#26193#26595#0" expanded="false" />
+            <element signature="e#26622#28371#0" expanded="false" />
+            <element signature="e#28414#28605#0" expanded="false" />
+            <element signature="e#28628#31496#0" expanded="false" />
+            <element signature="e#28828#28940#0" expanded="false" />
+            <element signature="e#28945#30283#0" expanded="false" />
+            <element signature="e#30293#31037#0" expanded="false" />
+            <element signature="e#31512#33883#0" expanded="false" />
+            <element signature="e#31698#31838#0" expanded="false" />
+            <element signature="e#31960#32551#0" expanded="false" />
+            <element signature="e#32211#32547#0" expanded="false" />
+            <element signature="e#33157#33877#0" expanded="false" />
+            <element signature="e#33917#35380#0" expanded="false" />
+            <element signature="e#35430#40067#0" expanded="false" />
+            <element signature="e#35803#40065#0" expanded="false" />
+            <element signature="e#36213#39048#0" expanded="false" />
+            <element signature="e#39079#40061#0" expanded="false" />
+            <element signature="e#40082#41322#0" expanded="false" />
+            <element signature="e#41852#44512#0" expanded="false" />
+            <element signature="e#44892#44925#0" expanded="false" />
+            <element signature="e#47177#48676#0" expanded="false" />
+            <element signature="e#48693#48911#0" expanded="false" />
+            <element signature="e#48926#49731#0" expanded="false" />
+            <element signature="e#49744#50457#0" expanded="false" />
+            <element signature="e#50478#50634#0" expanded="false" />
+            <element signature="e#50673#51391#0" expanded="false" />
+            <element signature="e#51433#52957#0" expanded="false" />
+            <element signature="e#52985#53067#0" expanded="false" />
+            <element signature="e#53085#53452#0" expanded="false" />
+            <element signature="e#53506#55694#0" expanded="false" />
+            <element signature="e#53719#53974#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/.jshintignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/college-themes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
